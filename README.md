@@ -252,10 +252,7 @@ Aspiring Full Stack Java Developer
 
 https://github.com/memeghana721-lang
 
-**LinkedIn**
 
-(Add your LinkedIn profile URL here)
-
----
+--
 
 ⭐ If you found this project useful, please consider giving it a Star!
