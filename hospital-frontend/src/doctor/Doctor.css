@@ -1,0 +1,558 @@
+/* ======================================
+        DOCTOR MODULE PROFESSIONAL UI
+====================================== */
+
+
+
+/* Main Container */
+
+.container{
+
+    animation: fadeIn 0.4s ease-in-out;
+
+}
+
+
+/* Card Design */
+
+
+.card{
+
+
+    border:none !important;
+
+    border-radius:20px !important;
+
+    padding:30px !important;
+
+    background:white;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.12) !important;
+
+
+}
+
+
+
+.card h2{
+
+
+    color:#0d6efd;
+
+    font-size:30px;
+
+    font-weight:700;
+
+
+}
+
+
+
+
+/* ===============================
+          FORM DESIGN
+================================ */
+
+
+
+form{
+
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+
+}
+
+
+
+
+.mb-3{
+
+
+    margin-bottom:0 !important;
+
+
+}
+
+
+
+.mb-3 label{
+
+
+    font-weight:600;
+
+    color:#444;
+
+    margin-bottom:8px;
+
+    display:block;
+
+
+}
+
+
+
+.form-control{
+
+
+    height:48px;
+
+    border-radius:12px !important;
+
+    border:1px solid #ddd !important;
+
+    padding:12px 15px !important;
+
+    font-size:15px;
+
+    transition:.3s;
+
+
+}
+
+
+
+
+.form-control:focus{
+
+
+    border-color:#0d6efd !important;
+
+
+    box-shadow:
+    0 0 8px rgba(13,110,253,.25)
+    !important;
+
+
+}
+
+
+
+
+
+
+/* Submit Buttons */
+
+
+.btn-success{
+
+
+    grid-column:span 2;
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #198754,
+        #0f5132
+    ) !important;
+
+
+    border:none !important;
+
+
+    padding:14px !important;
+
+
+    border-radius:12px !important;
+
+
+    font-size:17px;
+
+
+    font-weight:600;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.btn-success:hover{
+
+
+    transform:translateY(-3px);
+
+
+    box-shadow:
+    0 8px 20px rgba(25,135,84,.3);
+
+
+}
+
+
+
+
+
+
+
+/* ===============================
+          DOCTOR LIST
+================================ */
+
+
+
+.d-flex{
+
+
+    background:white;
+
+
+    padding:25px;
+
+
+    border-radius:18px;
+
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,.12);
+
+
+}
+
+
+
+
+.d-flex h2{
+
+
+    color:#0d6efd;
+
+    font-weight:700;
+
+    margin:0;
+
+
+}
+
+
+
+/* Add Doctor Button */
+
+
+.btn-primary{
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #0d6efd,
+        #084298
+    ) !important;
+
+
+    border:none !important;
+
+
+    padding:12px 25px !important;
+
+
+    border-radius:10px !important;
+
+
+    font-weight:600;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.btn-primary:hover{
+
+
+    transform:translateY(-3px);
+
+
+    box-shadow:
+    0 8px 20px rgba(13,110,253,.3);
+
+
+}
+
+
+
+
+
+
+/* Table */
+
+
+.table{
+
+
+    margin-top:25px;
+
+
+    background:white;
+
+
+    border-radius:15px;
+
+
+    overflow:hidden;
+
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,.12);
+
+
+}
+
+
+
+.table thead{
+
+
+    background:#0d6efd !important;
+
+
+}
+
+
+
+.table thead th{
+
+
+    background:#0d6efd !important;
+
+
+    color:white !important;
+
+
+    text-align:center;
+
+
+    padding:15px !important;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+
+.table tbody td{
+
+
+    text-align:center;
+
+
+    padding:14px !important;
+
+
+    vertical-align:middle;
+
+
+    color:#444;
+
+
+}
+
+
+
+
+
+.table tbody tr{
+
+
+    transition:.3s;
+
+
+}
+
+
+
+.table tbody tr:hover{
+
+
+    background:#f4f8ff;
+
+
+    transform:scale(1.01);
+
+
+}
+
+
+
+
+
+
+/* Edit Button */
+
+
+.btn-warning{
+
+
+    background:#ffc107 !important;
+
+
+    border:none !important;
+
+
+    border-radius:8px !important;
+
+
+    padding:8px 15px !important;
+
+
+    font-weight:600;
+
+
+}
+
+
+
+
+/* Delete Button */
+
+
+.btn-danger{
+
+
+    background:#dc3545 !important;
+
+
+    border:none !important;
+
+
+    border-radius:8px !important;
+
+
+    padding:8px 15px !important;
+
+
+    font-weight:600;
+
+
+}
+
+
+
+.btn-warning:hover,
+.btn-danger:hover{
+
+
+    transform:scale(1.05);
+
+
+}
+
+
+
+
+
+
+
+/* Status Design */
+
+
+td:last-child{
+
+
+    font-weight:600;
+
+
+}
+
+
+
+
+
+
+/* ===============================
+        RESPONSIVE
+================================ */
+
+
+
+@media(max-width:768px){
+
+
+form{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+.btn-success{
+
+
+    grid-column:span 1;
+
+
+}
+
+
+
+.table{
+
+
+    overflow-x:auto;
+
+
+}
+
+
+
+.d-flex{
+
+
+    flex-direction:column;
+
+
+    gap:15px;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+/* Animation */
+
+
+@keyframes fadeIn{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}

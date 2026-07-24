@@ -1,0 +1,224 @@
+/* ======================================
+        PATIENT MODULE PROFESSIONAL CSS
+====================================== */
+
+/* Main Container */
+.patient-container{
+    padding:25px;
+    background:#f8f9fa;
+    min-height:calc(100vh - 70px);
+    width:100%;
+}
+
+/* Header */
+.patient-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.patient-header h1{
+    font-size:28px;
+    font-weight:700;
+    color:#1e3a8a;
+    margin:0;
+}
+
+.patient-header p{
+    margin-top:5px;
+    color:#6c757d;
+    font-size:15px;
+}
+
+/* Add Button */
+.add-patient-btn{
+    background:#0d6efd;
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.add-patient-btn:hover{
+    background:#084298;
+    transform:translateY(-2px);
+}
+
+/* Card */
+.patient-card{
+    width:100%;
+    background:#fff;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+    overflow-x:auto;
+}
+
+/* Table */
+.patient-table{
+    width:100%;
+    min-width:1100px;
+    border-collapse:collapse;
+}
+
+.patient-table thead{
+    background:#212529;
+    color:#fff;
+}
+
+.patient-table th{
+    padding:14px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+.patient-table td{
+    padding:14px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+.patient-table tbody tr:hover{
+    background:#eef6ff;
+}
+
+.patient-name{
+    color:#0d6efd;
+    font-weight:bold;
+}
+
+.blood{
+    background:#ffe5e5;
+    color:#dc3545;
+    padding:5px 10px;
+    border-radius:20px;
+    font-weight:600;
+}
+
+.status{
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.admitted{
+    background:#d1e7dd;
+    color:#146c43;
+}
+
+.discharged{
+    background:#f8d7da;
+    color:#b02a37;
+}
+
+/* Buttons */
+.edit-btn{
+    background:#ffc107;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-right:8px;
+}
+
+.edit-btn:hover{
+    background:#ffca2c;
+}
+
+.delete-btn{
+    background:#dc3545;
+    color:#fff;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:#bb2d3b;
+}
+
+/* Form */
+.patient-form-container{
+    width:100%;
+    max-width:900px;
+    margin:20px auto;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.patient-form-container h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#1e3a8a;
+}
+
+.patient-form-container form{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.patient-form-container label{
+    font-weight:600;
+    display:block;
+    margin-bottom:6px;
+}
+
+.patient-form-container input,
+.patient-form-container select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.patient-form-container input:focus,
+.patient-form-container select:focus{
+    outline:none;
+    border-color:#0d6efd;
+    box-shadow:0 0 6px rgba(13,110,253,.2);
+}
+
+.patient-form-container button{
+    grid-column:span 2;
+    padding:13px;
+    background:#198754;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.patient-form-container button:hover{
+    background:#157347;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .patient-header{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .patient-form-container form{
+        grid-template-columns:1fr;
+    }
+
+    .patient-form-container button{
+        grid-column:span 1;
+    }
+}

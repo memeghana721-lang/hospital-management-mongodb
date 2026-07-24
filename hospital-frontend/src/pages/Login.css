@@ -1,0 +1,184 @@
+/* =========================
+   LOGIN PAGE BACKGROUND
+========================= */
+
+.login-page {
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+    radial-gradient(circle at top left,#bbdefb,transparent 35%),
+    radial-gradient(circle at bottom right,#c8e6c9,transparent 35%),
+    linear-gradient(135deg,#e3f2fd,#ffffff);
+
+}
+
+
+/* =========================
+   LOGIN CARD
+========================= */
+
+.login-card {
+
+    width:420px;
+
+    padding:40px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.12);
+
+    animation:slideUp 0.6s ease;
+
+}
+
+
+/* Animation */
+
+@keyframes slideUp {
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.login-title {
+
+    text-align:center;
+
+    color:#1565c0;
+
+    font-size:26px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+}
+
+
+/* =========================
+   INPUT BOX
+========================= */
+
+.login-input {
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+
+.login-input:focus{
+
+    border-color:#1976d2;
+
+    box-shadow:0 0 8px rgba(25,118,210,.3);
+
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+.login-label{
+
+    font-weight:500;
+
+    color:#333;
+
+    margin-bottom:8px;
+
+    display:block;
+
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.login-btn {
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#1976d2;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.login-btn:hover{
+
+    background:#0d47a1;
+
+    transform:translateY(-2px);
+
+}
+
+
+/* Hospital Icon */
+
+.hospital-icon{
+
+    text-align:center;
+
+    font-size:45px;
+
+    margin-bottom:10px;
+
+}

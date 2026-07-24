@@ -1,0 +1,499 @@
+/* ==========================================
+      APPOINTMENT MODULE PROFESSIONAL UI
+========================================== */
+
+
+/* Main Container */
+
+.container.mt-4 {
+
+    padding: 25px;
+
+}
+
+
+
+/* ==============================
+        CARD DESIGN
+============================== */
+
+
+.card {
+
+    border:none !important;
+
+    border-radius:20px !important;
+
+    background:#ffffff;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.12) !important;
+
+    overflow:hidden;
+
+}
+
+
+
+.card-header {
+
+    padding:20px !important;
+
+    background:
+    linear-gradient(
+        135deg,
+        #0d6efd,
+        #0047b3
+    ) !important;
+
+    border:none !important;
+
+}
+
+
+.card-header h3 {
+
+    margin:0;
+
+    font-weight:700;
+
+    text-align:center;
+
+    font-size:28px;
+
+}
+
+
+
+.card-body {
+
+    padding:35px !important;
+
+}
+
+
+
+/* ==============================
+        FORM DESIGN
+============================== */
+
+
+.form-label,
+label {
+
+    font-weight:600;
+
+    color:#333;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.form-control,
+.form-select {
+
+
+    height:48px;
+
+    border-radius:12px !important;
+
+    border:1px solid #ddd !important;
+
+    padding:10px 15px !important;
+
+    font-size:15px;
+
+    transition:0.3s;
+
+}
+
+
+
+textarea.form-control {
+
+    height:auto;
+
+}
+
+
+
+.form-control:focus,
+.form-select:focus {
+
+
+    border-color:#0d6efd !important;
+
+
+    box-shadow:
+    0 0 10px rgba(13,110,253,0.25) !important;
+
+
+}
+
+
+
+/* ==============================
+        BUTTON DESIGN
+============================== */
+
+
+.btn-success {
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #198754,
+        #0f5132
+    ) !important;
+
+
+    border:none !important;
+
+    padding:12px 30px !important;
+
+    border-radius:12px !important;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+
+
+.btn-success:hover {
+
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 8px 15px rgba(25,135,84,0.3);
+
+
+}
+
+
+
+.btn-secondary {
+
+
+    padding:12px 30px !important;
+
+    border-radius:12px !important;
+
+    font-weight:600;
+
+}
+
+
+
+
+/* ==============================
+        LIST PAGE
+============================== */
+
+
+
+.d-flex {
+
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:18px;
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,0.1);
+
+}
+
+
+
+.d-flex h2 {
+
+
+    color:#0d6efd;
+
+    font-weight:700;
+
+}
+
+
+
+/* Add Appointment Button */
+
+
+.btn-primary {
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #0d6efd,
+        #003c9e
+    ) !important;
+
+
+    border:none !important;
+
+
+    padding:12px 25px !important;
+
+
+    border-radius:12px !important;
+
+
+    font-weight:600;
+
+
+}
+
+
+
+.btn-primary:hover {
+
+
+    transform:translateY(-3px);
+
+
+}
+
+
+
+
+/* ==============================
+        TABLE DESIGN
+============================== */
+
+
+.table {
+
+
+    margin-top:25px;
+
+
+    background:white;
+
+
+    border-radius:15px;
+
+
+    overflow:hidden;
+
+
+    box-shadow:
+    0 8px 25px rgba(0,0,0,0.12);
+
+
+}
+
+
+
+
+.table thead {
+
+
+    background:#0d6efd !important;
+
+
+}
+
+
+
+.table thead th {
+
+
+    background:#0d6efd !important;
+
+
+    color:white !important;
+
+
+    padding:16px;
+
+
+    text-align:center;
+
+
+    font-size:14px;
+
+
+}
+
+
+
+.table tbody td {
+
+
+    padding:15px;
+
+
+    text-align:center;
+
+
+    vertical-align:middle;
+
+
+    color:#444;
+
+
+}
+
+
+
+
+.table tbody tr {
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+.table tbody tr:hover {
+
+
+    background:#f1f7ff;
+
+
+    transform:scale(1.01);
+
+
+}
+
+
+
+/* ==============================
+        ACTION BUTTONS
+============================== */
+
+
+.btn-warning {
+
+
+    background:#ffc107 !important;
+
+
+    border:none !important;
+
+
+    border-radius:8px !important;
+
+
+    padding:8px 18px !important;
+
+
+    font-weight:600;
+
+
+}
+
+
+
+.btn-danger {
+
+
+    border-radius:8px !important;
+
+
+    padding:8px 18px !important;
+
+
+    font-weight:600;
+
+
+}
+
+
+
+
+.btn-warning:hover,
+.btn-danger:hover {
+
+
+    transform:scale(1.05);
+
+
+}
+
+
+
+/* ==============================
+        STATUS BADGE
+============================== */
+
+
+
+td:nth-child(6) {
+
+
+    font-weight:600;
+
+
+}
+
+
+
+td:nth-child(6)::first-letter {
+
+
+    color:#0d6efd;
+
+
+}
+
+
+
+
+
+/* ==============================
+        UPDATE FORM
+============================== */
+
+
+
+.card.shadow.p-4 {
+
+
+    max-width:900px;
+
+    margin:auto;
+
+
+}
+
+
+
+/* ==============================
+        RESPONSIVE
+============================== */
+
+
+@media(max-width:768px){
+
+
+.table {
+
+    display:block;
+
+    overflow-x:auto;
+
+}
+
+
+
+.card-body {
+
+    padding:20px !important;
+
+}
+
+
+
+}
